@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage ('Build') {
+        stage ('hello world') {
 
             steps {
-               bat 'mvn -B compile'
+               echo 'Hello world'
             }
         }
     }
