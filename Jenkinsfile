@@ -6,7 +6,7 @@ pipeline {
 
             steps {
                echo 'Hello world'
-                bat "mvn clean install"
+                bat "mvn -DskipTests clean install"
             }
         }
         
